@@ -1,0 +1,74 @@
+
+:root {
+    --blue: #0095c9;
+    --light-blue: #0f89cb;
+    --darkblue: #17418a;
+    --red: #db3832;
+    --yellow: #fff24b;
+    --black: #323230;
+    --grey: #afb8be;
+    --bgcolor: #f5f5f5;
+    --white: #fffff5;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.enreg-title {
+  text-align: center;
+  margin: 50px 0;
+
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.enreg-info {
+  margin: 50px 10em 0 10em;
+  text-align: center;
+}
+
+.enreg-link {
+  background-color: var(--white);
+  width: 350px;
+  aspect-ratio: 3/2;
+  border-radius: 10px;
+  border: 2px solid var(--yellow);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.enreg-link a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-title{
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.enregistrement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10em;
+  margin-bottom: 2em;
+}
+
+.enreg-button{
+    background-color: var(--blue);
+    color: var(--black);
+    font-weight: 600;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin: 0.5px;
+}
+
