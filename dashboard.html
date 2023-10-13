@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liso - Dashboard</title>
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+<body>
+    <main class="main container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/log_ministere.png" alt="">
+                <p>Logiciel informatique de suivi des organismes</p>
+            </div>
+            <div class="menu">
+                <div class="menu-link">
+                    <a href="#"><span class="icon-container"><ion-icon class="menu-icon" name="home-outline"></ion-icon></span> Home</a>
+                </div>
+                <div class="menu-link">
+                    <button><span class="icon-container"><ion-icon class="menu-icon" name="add-circle-outline"></ion-icon></span>Ajouter un instrument</button>
+                </div>
+                <div class="menu-link">
+                    <button><span class="icon-container"><ion-icon class="menu-icon" name="document-text-outline"></ion-icon></span> Faire une demande de prestation</button>
+                </div>
+            </div>
+        </nav>
+        <section class="main-section">
+            <div class="header">
+                <p>Espace des entreprises</p>
+                <button>Faire une demande de prestation</button>
+                <p><ion-icon name="language-outline"></ion-icon>Francais</p>
+            </div>
+
+            <div class="retour">
+                <a href="#"><ion-icon name="arrow-back-circle-outline"></ion-icon>Retour</a>
+                <div class="badge">
+                    <p>Entreprise Conforme</p>
+                </div>
+            </div>
+
+            <section class="entreprise-info-container">
+                <div class="entreprise_info">
+                    <p>Nom de l'entreprise : <span>Kadea Software</span></p>
+                    <p>Identifiant de l'entreprise : <span>E12340K</span></p>
+                    <p>Statut de l'entreprise : <span>prestataire</span></p>
+                </div>
+                <div class="add-material-container">
+                    <button class="add-material"><ion-icon name="add-circle-outline"></ion-icon>Ajouter un instrument</button>
+                </div>
+            </section>
+
+            <div class="list-instrument">
+                <p>Liste des instruments</p>
+                <div class="search-bar">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <input type="search" placeholder="Recherche" name="search-bar" id="">
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+
+            <div class="intrument-liste-container">
+                <div class="instrument">
+                    <div class="instrument-info">
+                        <div class="instrument-name">
+                            <p>Mon instrument 1</p>
+                        </div>
+
+                        <div class="instrument-detail">
+                            <div>
+                                <P>Numero ID : E153455</P>
+                                <P>Typa d'appareil : Appareilde mesure</P>
+                            </div>
+                            <div>
+                                <p>Numero de serie : 0975432</p>
+                                <p>V-Number : 12366</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instrument-status">
+                        <div class="badge">
+                            <p>Conforme</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="instrument">
+                    <div class="instrument-info">
+                        <div class="instrument-name">
+                            <p>Mon instrument 1</p>
+                        </div>
+
+                        <div class="instrument-detail">
+                            <div>
+                                <P>Numero ID : E153455</P>
+                                <P>Typa d'appareil : Appareilde mesure</P>
+                            </div>
+                            <div>
+                                <p>Numero de serie : 0975432</p>
+                                <p>V-Number : 12366</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instrument-status">
+                        <div class="badge non-conform">
+                            <p>Non Conforme</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>
+
