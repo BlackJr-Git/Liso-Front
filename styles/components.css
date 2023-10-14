@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,700;0,800;1,200;1,300;1,700;1,800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
     --blue: #0095c9;
     --light-blue: #0f89cb;
@@ -10,3 +12,76 @@
     --white: #fffff5;
 }
 
+/* STYLE GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+    background-color: var(--bgcolor);
+}
+
+
+/* ALERT MESSAGE */
+
+.alert{
+    width: 500px;
+    background-color: red;
+    height: 150px;
+    margin: 10px auto;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.alert-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 1em 0;
+}
+
+.alert-header ion-icon{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.alert-header p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.alert-header button{
+    border: none;
+    background-color: transparent;
+    width: 32px;
+    cursor: pointer;
+}
+
+.alert-message p{
+    text-align: center;
+}
+
+.warning{
+    background-color: #fff24b;
+}
+
+.sucess{
+    background-color: #23C552;
+}
+
+.error{
+    background-color: var(--red);
+}
+
+.info{
+    background-color: var(--light-blue);
+}
+
+/* END ALERT MESSAGE */
