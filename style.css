@@ -78,6 +78,10 @@ nav div > ul li a:hover {
   border-bottom: 4px solid #0a89f8;
 }
 
+.active{
+  border-bottom: 4px solid #0a89f8;
+}
+
 .language {
   display: flex;
   gap: 0.5em;

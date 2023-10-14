@@ -36,6 +36,10 @@ body {
   padding: 1em;
 }
 
+.active{
+  border-bottom: 4px solid #0a89f8;
+}
+
 .navbar {
   grid-column: 1/5;
   height: 100vh;

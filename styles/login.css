@@ -30,6 +30,10 @@
     padding: 1em;
 }
 
+.active{
+    border-bottom: 4px solid #0a89f8;
+  }
+
 
 .login-container{
     background-color: var(--grey);
