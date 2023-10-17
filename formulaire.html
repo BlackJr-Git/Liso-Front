@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire LISO</title>
+    <link rel="stylesheet" href="styles/formulaire.css" />
+  </head>
+  <body>
+    <main class="main container">
+      <h1>Formulaire de demande de prestation</h1>
+      <p class="form-intro">
+        Bienvenue sur le formulaire d'enregistrement des entreprises principales
+        de la plateforme du ministère de l’iindustrie. Après validation, le
+        dossier sera soumis à l'examen du Ministere de l'Industrie. Une fois
+        tous les critères réunis, un email vous demandant de confirmer votre
+        enregistrement, vous sera envoyé à l'adresse email de contact fourni.
+        Apres toutes ces étapes, un email d'accuser de réception de votre
+        enregistrement vous sera envoyé avec un identifiant.
+      </p>
+      <h2>Information sur la personne qui enregistre au nom de l’entreprise</h2>
+
+      <section class="form1">
+        <div class="input-id">
+          <label for="civilite">Votre civilité :</label>
+          <input type="text" name="civilite" id="civilite" />
+        </div>
+
+        <div class="input-id">
+          <label for="firstName">Votre prénom :</label>
+          <input type="text" name="prenom" id="firstName" />
+        </div>
+
+        <div class="input-id">
+          <label for="username">Votre nom :</label>
+          <input type="text" name="name" id="username" />
+        </div>
+
+        <div class="input-id">
+          <label for="habilitation"
+            >Vous etes habilité à enregistrer en tant que :</label
+          >
+          <input type="text" name="" id="habilitation" />
+        </div>
+
+        <div class="input-id">
+          <label for="adresse">Votre adresse :</label>
+          <input type="text" name="" id="adresse" />
+        </div>
+
+        <div class="input-id">
+          <label for="Ville">Ville :</label>
+          <input type="text" name="" id="Ville" />
+        </div>
+
+        <div class="input-id">
+          <label for="province">Province :</label>
+          <input type="text" name="" id="province" />
+        </div>
+
+        <div class="input-id">
+          <label for="userPhone">Telephone :</label>
+          <input type="number" name="" id="userPhone" />
+        </div>
+
+        <div class="input-id">
+          <label for="userMail">Adresse Mail :</label>
+          <input type="text" name="" id="userMail" />
+        </div>
+
+        <div class="input-id">
+          <label for="nationalite">Nationalité :</label>
+          <input type="text" name="" id="nationalite" />
+        </div>
+
+        <div class="input-id">
+          <label for=""
+            >Veuiller uploader votre carte d’identité (passport ou carte
+            d’électeur) :</label
+          >
+          <input type="file" name="user-img" id="user-img" />
+          <label for="user-img" class="file-input-label"
+            ><img src="images/document-attach-outline.svg" alt="icon-file input" class="file-input-icon" />Choisir une
+            image</label
+          >
+        </div>
+      </section>
+
+      <h2>Information sur l’entreprise qui s’enregistre</h2>
+
+      <section>
+        <div class="input-id">
+          <label for="en-name">Nom de la société :</label>
+          <input type="text" name="identifiant" id="en-name" />
+        </div>
+
+        <div class="input-id">
+          <label for="en-number">Numéro d’agrement de la société :</label>
+          <input type="text" name="identifiant" id="en-number" />
+        </div>
+
+        <div class="input-id">
+          <label for=""
+            >Uploader l’attestation d’agrement de la société :</label
+          >
+          <input type="file" name="en-image" id="en-imag" />
+          <label for="en-imag" class="file-input-label"
+            ><img src="images/document-attach-outline.svg" alt="icon-file input" class="file-input-icon" />Choisir une
+            image</label
+          >
+        </div>
+
+        <div class="input-id">
+          <label for="en-adresse">Adresse de la société :</label>
+          <input type="text" name="identifiant" id="en-adresse" />
+        </div>
+
+        <div class="input-id">
+          <label for="en-phone">Numéro de téléphone de la société :</label>
+          <input type="number" name="identifiant" id="en-phone" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  :root {
+    --blue: #0095c9;
+    --light-blue: #0f89cb;
+    --darkblue: #17418a;
+    --red: #db3832;
+    --yellow: #fff24b;
+    --black: #323230;
+    --grey: #afb8be;
+    --bgcolor: #f5f5f5;
+    --white: #fffff5;
+  }
+  
+  body {
+    margin: 0 auto;
+    background-color: var(--bgcolor);
+  }
+
+  .container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.active{
+    border-bottom: 4px solid #0a89f8;
+  }
+
+
+.login-container{
+    background-color: var(--grey);
+    color: var(--black);
+    border-radius: 10px;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    max-width: 800px ;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1em;
+}
+
+.login-container p{
+    text-align: center;
+}
+
+form{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    gap: 50px;
+    padding: 1em;
+}
+
+form div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form button{
+    border: none;
+    background-color: var(--blue);
+    font-size: 1.1em;
+    font-weight: 700;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--black);
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0 1em ;
+    border: 1px solid var(--blue);
+}
+
+input[type = file]{
+    border: 0px ;
+    display: none;
+}
+
+label{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.input-id{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.form-intro{
+    max-width: 800px;
+    margin: 50px 0;
+}
+
+.file-input-label{
+    cursor: pointer;
+}
+
+.file-input-icon{
+    width: 25px;
+}
